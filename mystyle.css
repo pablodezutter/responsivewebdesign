@@ -1,0 +1,33 @@
+body{
+background-color: lavender; 
+margin:0px;
+}
+
+@media screen and (min-width: 400px){
+body{
+    background-color: pink;
+    }
+}
+
+@media screen and (min-width: 800px){
+body {
+    background-color: rgb(104, 218, 104);
+    }
+}
+
+#responsive1{
+    width: 100%;
+}
+
+#responsive2{
+    max-width: 80%;
+}
+
+#nrt{
+font-size: 26px;
+}
+
+#rt{
+    font-size: 5vw;
+
+}
